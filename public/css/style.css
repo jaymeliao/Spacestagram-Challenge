@@ -6,3 +6,16 @@ body {
 #paragraph1{
   color:red;
 }
+
+.jm-like-btn.isclicked{
+  color:red;
+}
+
+.jm-like-btn{
+  color:black;
+}
+
+
+p.card-text{
+  font-size: 11px;
+}
