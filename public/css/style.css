@@ -17,5 +17,9 @@ body {
 
 
 p.card-text{
-  font-size: 11px;
+  font-size: 14px;
+}
+
+#today{
+  background-color: #ddd;
 }

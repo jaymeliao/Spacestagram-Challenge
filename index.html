@@ -39,7 +39,97 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-12">
-              <div id="today" class="card mb-4 box-shadow">
+              <div id="today" class="card mb-4 box-shadow jm-photoCard">
+                <img class="card-img-top">
+                <div class="card-body">
+                  <h3></h3>
+                  <p class="card-text"></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <i class="fa fa-heart-o jm-like-btn"></i>
+                    </div>
+                    <small class="taken-date text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card mb-4 box-shadow jm-photoCard">
+                <img class="card-img-top">
+                <div class="card-body">
+                  <h3></h3>
+                  <p class="card-text"></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <i class="fa fa-heart-o jm-like-btn"></i>
+                    </div>
+                    <small class="taken-date text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card mb-4 box-shadow jm-photoCard">
+                <img class="card-img-top">
+                <div class="card-body">
+                  <h3></h3>
+                  <p class="card-text"></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <i class="fa fa-heart-o jm-like-btn"></i>
+                    </div>
+                    <small class="taken-date text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card mb-4 box-shadow jm-photoCard">
+                <img class="card-img-top">
+                <div class="card-body">
+                  <h3></h3>
+                  <p class="card-text"></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <i class="fa fa-heart-o jm-like-btn"></i>
+                    </div>
+                    <small class="taken-date text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card mb-4 box-shadow jm-photoCard">
+                <img class="card-img-top">
+                <div class="card-body">
+                  <h3></h3>
+                  <p class="card-text"></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <i class="fa fa-heart-o jm-like-btn"></i>
+                    </div>
+                    <small class="taken-date text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card mb-4 box-shadow jm-photoCard">
+                <img class="card-img-top">
+                <div class="card-body">
+                  <h3></h3>
+                  <p class="card-text"></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <i class="fa fa-heart-o jm-like-btn"></i>
+                    </div>
+                    <small class="taken-date text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card mb-4 box-shadow jm-photoCard">
                 <img class="card-img-top">
                 <div class="card-body">
                   <h3></h3>
@@ -61,22 +151,19 @@
 
     <footer class="text-muted">
       <div class="container">
-         <span style="font-size:10px;"> Copyright@2021</span>
+         <span style="font-size:10px;"> Copyright@2022</span>
       </div>
     </footer>
     <script>
       //like button animation
       $(".jm-like-btn").click(function(){
-          if($(".jm-like-btn").hasClass("isclicked")){
-              $(".jm-like-btn").addClass("fa-heart-o").removeClass("fa-heart isclicked");
+          if($(this).hasClass("isclicked")){
+              $(this).addClass("fa-heart-o").removeClass("fa-heart isclicked");
           }else{
-            $(".jm-like-btn").addClass("fa-heart isclicked").removeClass("fa-heart-o");
+            $(this).addClass("fa-heart isclicked").removeClass("fa-heart-o");
           }
       });
-      /*  $(".jm-like-btn").click(function(){
-          $(".jm-like-btn").toggleClass("isclicked");
-        });
-     */
+
     </script>
     <script src="./js/script.js"></script>
   </body>
